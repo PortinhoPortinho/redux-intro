@@ -25,7 +25,6 @@ function reducer(state = initialState, action) {
         ...state,
         loan: 0,
         loanPurpose: "",
-        balance:,
       };
     default:
       return state;
