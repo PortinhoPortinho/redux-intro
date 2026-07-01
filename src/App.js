@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
       <h1>🏦 The React-Redux Bank ⚛️</h1>
-      {fullName === "" ? <CreateCustomer /> : <h2>👋 Welcome, {fullName}</h2>}
-      <Customer />
+      {fullName === "" ? <CreateCustomer /> : <Customer />}
+
       <AccountOperations />
       <BalanceDisplay />
     </div>
